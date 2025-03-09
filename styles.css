@@ -1,0 +1,26 @@
+
+body {
+    background: linear-gradient(to bottom, #ffcdcd, #fff4f5);
+}
+#products{
+    margin-top: 100px;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds shadow effect */
+}
+
+#contact {
+    margin-bottom: 20px;
+    margin-top: 70px;
+    height: 70vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+ 
+}
